@@ -1,3 +1,8 @@
+plugins {
+    id 'com.android.application'
+    id 'org.kotlin.android'
+}
+
 android {
     namespace 'com.example.helloworld'
     compileSdk 35

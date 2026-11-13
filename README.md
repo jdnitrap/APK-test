@@ -4,13 +4,21 @@ A minimal Android app that displays "Hello, World!" — built as a starting poin
 
 ## Get the APK (no Android Studio needed)
 
+**Option 1 — Permanent download link (recommended):**
+
+1. Go to the **Releases** section of this repo.
+2. Download `app-debug.apk` from the latest release.
+3. On your phone, allow installs from unknown sources for your browser or file manager, then tap the APK to install.
+
+**Option 2 — Actions artifact:**
+
 1. Go to the **Actions** tab in this repo.
 2. Open the latest **Build APK** run.
 3. Download the `app-debug` artifact from the bottom of the page.
 4. Unzip it — the APK is inside.
 5. On your phone, allow installs from unknown sources for your browser or file manager, then tap the APK to install.
 
-The workflow runs on every push to `main` using GitHub-hosted Ubuntu runners with JDK 17 and Gradle 8.10.2.
+The workflow runs on every push to `main` using GitHub-hosted Ubuntu runners with JDK 17 and Gradle 8.10.2. Pushing a tag that starts with `v` (like `v1.0.0`) also creates a GitHub Release with the APK attached automatically.
 
 ## Build it locally (optional)
 
